@@ -1,0 +1,169 @@
+<apex:page standardController="Account" setup="true" sidebar="false" tabStyle="Account" showHeader="true">
+    <apex:sectionHeader title="Resume" subtitle="Ngoako Masekela"></apex:sectionHeader>
+    <apex:form>
+        <apex:pageBlock>
+            <apex:pageBlockButtons location="both">
+                <apex:commandButton value ="Save"></apex:commandButton>
+                <apex:commandButton value ="Save & New"></apex:commandButton>
+                <apex:commandButton value = "Cancel"></apex:commandButton>
+                <apex:commandButton value = "Delete"></apex:commandButton>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Professional Summary" columns="1" collapsible="true">
+                <apex:pageBlockSectionItem>
+                    Ngoako Masekela is a dedicated and results-driven Salesforce Engineer with a strong 
+                    foundation in DevOps, administration, development, and Salesforce Quality Assurance. 
+                    Possesses a comprehensive understanding of cloud technologies and CRM systems, with 
+                    a proven track record of leveraging technical skills to enhance organizational efficiency 
+                    and user experience. Ngoako is always prepared to put his knowledge and abilities to 
+                    deliver the best results in everything that he does, while gaining immeasurable experience 
+                    and skills to advance in his career pursuit. Ngoako is a self-motivated, goal orientated, 
+                    driven and an individual who believes in lifting and empowering others, through the 
+                    knowledge he has acquired, and experiences gained overtime.
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Personal Details" columns="2" collapsible="true">
+                <apex:pageBlockSectionItem>Contact:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>0722168387 / 0710770535</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Email address:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>ngoako91masekela@gmail.com</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>LinkedIn:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>www.linkedin.com/in/ngoako-masekela-662851188</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Trailhead:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>https://www.salesforce.com/trailblazer/nmasekela</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>GitHub:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>https://github.com/ngoako</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Location:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Bertram’s, Johannesburg</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Nationality:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>South African</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>EE:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Black Male</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>License:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Code 10</apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Core Competencies" columns="1" collapsible="true">
+                <apex:pageBlockSectionItem>• Competent in Microsoft Word, PowerPoint, Outlook, Teams, and SharePoint.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Excellent verbal and written communication skills.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Mature, task driven and self-motivated individual.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Ability to meet strict daily processing targets.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Familiarity with Agile development practices</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Experience in configuration, setup, unit, and integration testing.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Collaborative and Innovative and strong analytical skills.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Results Driven, Planning and organizational skills.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Good interpersonal and time management skills.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Thought leader who always put others first.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Ability to work under pressure and high level of reliability.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• I can work independently and well in a team.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Effective problem-solving skills and I can act with discretion.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Relationship building between colleagues, new team members and Stakeholders.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Hands on experience in Mobile and Web application development.</apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlock title="Experience">
+                <apex:pageBlockSection title="Salesforce DevOps Engineer" columns="1" collapsible="true">
+                    <apex:pageBlockSection columns="2">
+                        <apex:pageBlockSectionItem>February 2023 - July 2024</apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem>Standard Bank</apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSectionItem><b>Duties Include:</b></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Create users in Sandboxes and Assign Permission sets.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Collaborate with the Copado team to leverage their expertise and support in implementing and optimizing Copado DevOps processes for Salesforce.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Create profiles, roles and configure permissions according to organizational hierarchy requirements.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Set up and maintain CI/CD pipelines to automate the build, test, and deployment of Salesforce applications.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Integrate security practices into the DevOps pipeline, ensuring secure coding practices, vulnerability scanning, and adherence to security standards.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Perform administrative tasks in Salesforce, such as user management, security configuration, and data management, to ensure smooth operations.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Use JIRA board to track business requirements.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Build test cases and perform UAT and SIT testing with Provar Automation Tool.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Document technical processes, configurations, and security measures to ensure knowledge sharing and compliance with documentation standards.</apex:pageBlockSectionItem>
+                </apex:pageBlockSection>
+                <apex:pageBlockSection title="Salesforce Quality Assurance Engineer" columns="1" collapsible="true">
+                    <apex:pageBlockSection columns="2">
+                        <apex:pageBlockSectionItem>November 2022 - February 2023</apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem>Standard Bank</apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSectionItem><b>Duties Include:</b></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Create and run automated test scripts utilizing Provar Automation Tool.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Execute diverse forms of automation testing, including regression and unit testing.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Generate metrics and reports on the testing and quality outcomes with DevOps.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Engage in active participation in project planning and daily Scrum sessions.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Intety scanning, and adherence to security standards.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Perfoanagement, to ensure smooth operations.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Create test plans for automation.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Create and run automated test scripts utilizing Provar Automation Tool.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Analyse and report on the outcomes of automated test cases.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Participate in the development and selection of business application testing frameworks.</apex:pageBlockSectionItem>
+                </apex:pageBlockSection>
+                <apex:pageBlockSection title="Web Developer" columns="1" collapsible="true">
+                    <apex:pageBlockSection columns="2">
+                        <apex:pageBlockSectionItem>March 2022 - October 2022</apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem>CodeTribe - Mlab</apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSectionItem><b>Duties Include:</b></apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Implementing Design Planning.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Designing and Implementing User Interface Components.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Developing Front-End Applications.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Gathering Requirements and Task Assignments.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Monitoring and Improving Front-End Performance.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Working with SQL.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Collaborating with Senior Developers.</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem>• Working Independently and Learning Continuously.</apex:pageBlockSectionItem>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+            <apex:pageBlockSection title="Education" columns="2" collapsible="true">
+                <apex:pageBlockSectionItem>Institution:</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Tshwane University of Technology</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Qualification</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>National Diploma in Information Technology</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Specialization</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Software Engineering</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Status</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>Complete</apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Certifications" columns="1" collapsible="true">
+                <apex:pageBlockSectionItem>• Salesforce Certified Platform Developer 1</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Salesforce Certified Administrator</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Salesforce Certified Platform App Builder</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Salesforce AI Associate</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Salesforce Marketing Associate</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Copado Certified Consultant</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Copado Certified Fundamentals 1</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Copado Certified Fundamentals 2</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Provar Essentials</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Provar Manager</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• Microsoft Certified: Azure Fundamentals</apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Goals" columns="1" collapsible="true">
+                <apex:pageBlockSectionItem>• To achieving my set goals and keeping myself dynamic in the changing scenario to become a Salesforce Developer.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• To become an excellent Salesforce Developer taking up challenging works in the Industrial structure with creative and diversified Projects and to be part of a Constructive and fast-Growing World.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• To make a position for myself in the competitive corporate world and contribute to achieving the goals on both professional and personal level.</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>• To work in an environment that challenges me to improve and constantly thrive for perfection in all the tasks allotted to me so that I cab be able to showcase my Information Technology skills.</apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="References" columns="1" collapsible="true">
+                <apex:pageBlockSectionItem>• Available upon request.</apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Account Information" columns="2" collapsible="true">
+                <apex:inputField value="{!Account.Name}"></apex:inputField>
+                <apex:inputField value="{!Account.AccountNumber}"></apex:inputField>
+                <apex:inputField value="{!Account.Rating}"></apex:inputField>
+                <apex:inputField value="{!Account.Industry}"></apex:inputField>
+                <apex:inputField value="{!Account.AnnualRevenue}"></apex:inputField>
+                <apex:inputField value="{!Account.Website}"></apex:inputField>
+                <apex:inputField value="{!Account.Type}"></apex:inputField>
+                <apex:inputField value="{!Account.Ownership}"></apex:inputField>
+                <apex:inputField value="{!Account.Phone}"></apex:inputField>
+                <apex:inputField value="{!Account.Fax}"></apex:inputField>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Address Information" columns="2" collapsible="true">
+                <apex:inputField value="{!Account.BillingStreet}"></apex:inputField>
+                <apex:inputField value="{!Account.ShippingStreet}"></apex:inputField>
+                <apex:inputField value="{!Account.BillingCity}"></apex:inputField>
+                <apex:inputField value="{!Account.ShippingCity}"></apex:inputField>
+                <apex:inputField value="{!Account.BillingState}"></apex:inputField>
+                <apex:inputField value="{!Account.ShippingState}"></apex:inputField>
+                <apex:inputField value="{!Account.BillingCountry}"></apex:inputField>
+                <apex:inputField value="{!Account.ShippingCountry}"></apex:inputField>
+                <apex:inputField value="{!Account.BillingPostalCode}"></apex:inputField>
+                <apex:inputField value="{!Account.ShippingPostalCode}"></apex:inputField>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
